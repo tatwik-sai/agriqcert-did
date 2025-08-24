@@ -1,0 +1,10 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:tatwik.github.io:agriqcert-did",
+  "verificationMethod": [{
+    "id": "did:web:tatwik.github.io:agriqcert-did#key-1",
+    "type": "Ed25519VerificationKey2020",
+    "controller": "did:web:tatwik.github.io:agriqcert-did",
+    "publicKeyMultibase": "z6MkvExamplePublicKeyString"
+  }]
+}
