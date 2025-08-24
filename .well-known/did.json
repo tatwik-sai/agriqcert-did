@@ -1,10 +1,23 @@
 {
-  "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:tatwik.github.io:agriqcert-did",
-  "verificationMethod": [{
-    "id": "did:web:tatwik.github.io:agriqcert-did#key-1",
-    "type": "Ed25519VerificationKey2020",
-    "controller": "did:web:tatwik.github.io:agriqcert-did",
-    "publicKeyMultibase": "z6MkvExamplePublicKeyString"
-  }]
+  "assertionMethod": [
+    "did:web:tatwik-sai.github.io:agriqcert-did"
+  ],
+  "service": [],
+  "id": "did:web:tatwik-sai.github.io:agriqcert-did",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkuFb78fqetxqmjV9j7iDZkHMirtRqMK4xHAMtwQAoJzRC",
+      "controller": "did:web:tatwik-sai.github.io:agriqcert-did",
+      "id": "did:web:tatwik-sai.github.io:agriqcert-did#tpwQ2UWG3a5i8J1-gRTl4-Q1Xke4R5BToTpLRx6QS_M",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:tatwik-sai.github.io:agriqcert-did"
+  ]
 }
